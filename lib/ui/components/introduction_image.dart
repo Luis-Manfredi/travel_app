@@ -29,7 +29,7 @@ class IntroImageWidget extends StatelessWidget {
         ),
 
         Padding(
-          padding: const EdgeInsets.fromLTRB(0, 20, 15, 0),
+          padding: const EdgeInsets.fromLTRB(0, 40, 15, 0),
           child: SvgPicture.asset('assets/images/Logo.svg'),
         ),
       ],

@@ -22,6 +22,9 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: background,
         backgroundColor: background,
         primaryColor: primary,
+        textTheme: const TextTheme(
+          bodyMedium: TextStyle(color: white),
+        ),
         appBarTheme: const AppBarTheme(
           color: white,
         ),
@@ -42,7 +45,14 @@ class MyApp extends StatelessWidget {
             foregroundColor: MaterialStateProperty.all(primary)
           )
         ),
-        dividerColor: Colors.white60
+        expansionTileTheme: const ExpansionTileThemeData(
+          collapsedIconColor: white,
+          collapsedTextColor: white,
+          textColor: primary,
+          iconColor: primary,
+          collapsedBackgroundColor: Color.fromRGBO(64, 62, 68, 1),
+        ),
+        dividerColor: primary
       ),
       home: const Landing(),
     );
