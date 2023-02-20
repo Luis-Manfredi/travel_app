@@ -39,7 +39,7 @@ class IntroTextWidget extends StatelessWidget {
 
           RichText(
             text: const TextSpan(
-              text: 'Continue in this app to get to know all the options for your ',
+              text: 'Continue on this app to get to know all the options for your ',
               style: TextStyle(
                 color: white,
                 fontSize: 16,
